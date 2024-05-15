@@ -12,6 +12,25 @@
         <h1 class="tagline">Web site for real GYM masters</h2>
         <img src="/images/menu_button.png" class="menu_button"/>
     </div>
-    <h1>calc</h1>
+    <h1>Расчет индекс массы тела</h1>
+        <!-- блок расчета ИМТ -->
+        <div id="calc-mass-indx">
+            <div id="calc-mass-calc">
+            <div class="calc-mass-tr">
+                <span>Вес, кг:</span><input type="text" name="weight" id="weight">
+            </div>	
+            <div class="calc-mass-tr">
+                <span>Рост, см:</span><input type="text" name="height" id="height" >
+            </div>	
+            <div class="calc-mass-tr">
+                <span>ИМТ:</span><div id="imt-result"></div>
+            </div>	
+                 <button name="imt_calc" id="calc-mass-c" class="btn">Рассчитать</button>
+            </div>
+            <div id="calc-mass-result"></div>
+        <!-- конец блока расчета ИМТ -->            
+
+    </div>
+    <script src="/scripts/calc_page.js"></script>
 </body>
 </html>

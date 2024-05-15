@@ -14,3 +14,40 @@ body{
 .menu_button{
     border-radius: 20%;
 }
+/* Стили  */
+
+#calc-mass-indx {
+    margin: 20px 0;
+}
+
+#calc-mass-calc .calc-mass-tr input[type="text"] {
+    padding: 6px 12px;
+    border: 1px solid #d8dadc;
+    margin: 0 10px;
+}
+
+#calc-mass-calc .calc-mass-tr {
+    margin-bottom: 10px;
+}
+
+#calc-mass-calc button#calc-mass-c {
+    margin: 15px 0;
+}
+
+#calc-mass-calc .calc-mass-tr span {
+    display: inline-block;
+    min-width: 67px;
+}
+
+#calc-mass-calc .calc-mass-tr #imt-result {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+#calc-mass-calc .calc-mass-tr >span {
+    font-weight: bold;
+}
+
+#calc-mass-calc .calc-mass-tr input.error {
+    border: 1px solid red;
+}
