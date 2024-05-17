@@ -21,6 +21,12 @@
             </div>	
             <div class="calc-mass-tr">
                 <span>Рост, см:</span><input type="text" name="height" id="height" >
+            </div>
+            <div class="gender_form">
+                <span>Пол:</span>
+                <input type="radio" name="gender" value="Java" /><span>male</span>
+                <input type="radio" name="gender" value="C#" /><span>female</span>
+                
             </div>	
             <div class="calc-mass-tr">
                 <span>ИМТ:</span><div id="imt-result"></div>
@@ -29,7 +35,10 @@
             </div>
             <div id="calc-mass-result"></div>
         <!-- конец блока расчета ИМТ -->            
-
+        <div class="solution">
+            <h3>Что делать?</h3>
+            <h3 id="text_solution"></h3>
+        </div>
     </div>
     <script src="/scripts/calc_page.js"></script>
 </body>
